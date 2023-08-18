@@ -33,7 +33,7 @@ pipeline {
 
         stage('terraform') {
             steps {
-                bat 'C:\\Documentos\terraform.exe apply -auto-approve -no-color'
+                 bat 'C:\\terraform\\terraform.exe apply -auto-approve -no-color'
                 }
         }
     }
